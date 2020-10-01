@@ -23,6 +23,13 @@
        "liveSassCompile.settings.autoprefix": [
            "> 1%",
            "last 2 versions"
-       ]
+    ],
+    "cSpell.words": [
+        "Anisha",
+        "Gough",
+        "Shanai",
+        "customisable",
+        "flexbox"
+    ]
    
 }

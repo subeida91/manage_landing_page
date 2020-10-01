@@ -13,24 +13,31 @@
 <body>
 
   <header class="header">
-    <nav class="flex flex-jc-sb flex-ai-c">
+    <nav class="flex flex-jc-sb flex-ai-c header__logo">
       <a href="/" class="header__logo">
         <img src="/images/logo.svg" alt="Manage"/>
       </a> 
-      <a href="a" class="header__menu">
+ <!--hamburger menu-->
+      <a href="a" class="header__menu hide-for-desktop">
         <span></span>
         <span></span>
         <span></span>
       </a>
-    </nav>
+
+ <!--nav list-->
+
+      <div class="header__links hide-for-mobile">
+        <a href="#">Pricing</a>
+        <a href="#">Product</a>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">Community</a>
+      </div>
+      <button class='button header__cta hide-for-mobile '> Get Started</button>
   </header>
 
   
-  Pricing
-  Product
-  About Us
-  Careers
-  Community
+
 
   Get Started
 
