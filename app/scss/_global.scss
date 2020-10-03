@@ -40,14 +40,14 @@ a, a:visited, a:hover{
 }
 
 //buttons 
-.button {
+.button, .button {
     padding: 1.0625rem 1.875rem 0.75rem 1.875rem;
  	border-radius: 50px;
     cursor: pointer;
     font-weight: 400;
     border: 2px solid #F68C76;
     background: $primaryBrightRed;
-  
+    transition: color 200ms ease-in-out;
    
 }
 
